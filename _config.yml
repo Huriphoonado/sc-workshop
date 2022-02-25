@@ -32,7 +32,9 @@ header_pages:
 
 
 # Build settings
-theme: minima
+#theme: minima
+
+remote_theme: jekyll/minima
 
 minima:
     date_format: "%b %-d, %Y"
@@ -40,9 +42,9 @@ minima:
     social_links:
         github: huriphoonado
 
-
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
