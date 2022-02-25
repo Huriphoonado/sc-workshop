@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Class 1: Introduction to SoundCells"
+date: 2022-02-25
+categories: class update
+comments: false
+---
+## Topics Covered
+
+### Introduction to ABC Notation
+{% highlight YAML %}
+C: Composer Name
+ABC | DEF
+{% endhighlight %}
+
+### Notes and Barlines
+
+## New Keyboard Commands
+
+## Challenges to Try On Your Own
