@@ -13,8 +13,14 @@ C: Composer Name
 ABC | DEF
 {% endhighlight %}
 
+### Navigating the Soundcells Website
+
+
 ### Notes and Barlines
 
-## New Keyboard Commands
+
+### New Keyboard Commands
+Ctrl+Shift+Space = Play/Pause
+Ctrl+Shift+9 = Jump to Braille/Text Editor
 
 ## Challenges to Try On Your Own
