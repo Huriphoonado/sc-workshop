@@ -8,21 +8,30 @@ comments: false
 ## Topics Covered
 
 ### Introduction to ABC Notation
+<p>ABC Notation is a text-based music notation system.<br>
+The layout for a standard piece looks like this:
 {% highlight YAML %}
 C: Composer Name
 ABC | DEF
-{% endhighlight %}
+{% endhighlight %}</p>
 
 ### Navigating the Soundcells Website
-
+<p>Soundcells is an online tool that allows us to generate braille music using text written in ABC Notation.<br>
+</p>
 
 ### Notes and Barlines
-<p>Middle C is notated as an uppercase {% highlight YAML %}C{% endhighlight %}<br>
+<p>A middle C quarter note is notated as an uppercase {% highlight YAML %}C{% endhighlight %}<br>
 The subsequent notes in the C major scale are also notated in their uppercase forms: {% highlight YAML %}D E F{% endhighlight %}...<br>
-The notes in the next octave up are notated in lowercase, starting with the first C above Middle C: {% highlight YAML %}c d e f{% endhighlight %}...<br>
+The notes in the next octave up are notated in lowercase, starting with the first C above Middle C: {% highlight YAML %}c d e f{% endhighlight %}...<br><br>
+A barline is notated with the {% highlight YAML %}|{% endhighlight %} symbol.<br>
+Since we are currently composing in 4/4 time and each note is a quarter note, we write 4 notes between bar lines.<br>
+The final bar line is notated as {% highlight YAML %}|]{% endhighlight %}</p>
 
 ### New Keyboard Commands
-<p>Ctrl+Shift+Space = Play/Pause<br>
-Ctrl+Shift+9 = Jump to Braille/Text Editor</p>
+<p>Ctrl+Shift+Space = Play/Pause Audio<br>
+Ctrl+Shift+9 = Jump between Braille Notation and Text Editor</p>
 
 ## Challenges to Try On Your Own
+<p>Create a one-octave scale starting at middle C.<br>
+Create a two-octave scale starting at middle C.<br>
+Recreate a tune with only quarter notes. Try Mary Had a Little Lamb. (Hint: a quarter note rest is notated as {% highlight YAML %}z{% endhighlight %}</p>
