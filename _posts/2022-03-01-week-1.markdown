@@ -1,0 +1,108 @@
+---
+layout: post
+title:  "Class 1: Introduction to SoundCells"
+date: 2022-02-28
+categories: class update
+comments: false
+---
+
+Page Overview:
+* [Why Learn ABC?](#why-learn-abc)
+* [New ABC Notation](#abc-notation-topics)
+* [New Keyboard Commands](#new-keyboard-commands)
+* [Challenges to Try On Your Own](#challenges-to-try-on-your-own)
+
+## Why Learn ABC?
+[ABC](https://abcnotation.com) is a text-based language for notating music. It is widely used and many folk songs and classical music excerpts written in ABC can be found for free online. Because ABC is raw text, it can be directly interpreted by screen readers and easily shared via email.
+
+[SoundCells](http://soundcells.herokuapp.com/) is a web application for writing ABC. It generates braille and print versions of music, plays notes back as you type, and supports other useful keyboard commands SoundCells is very much a work-in-progress and still in development. It does not support all features of ABC syntax, like multiple voices, so not all music copied from the internet will work yet.
+
+## New ABC Notation
+This week, we covered how to notate pitches and barlines. For example:
+```
+C D A B | D, E, F, G, | _c ^d ^a' ^g'' |]
+```
+
+### Pitches and Rests
+The letters `A–G` and `a–g` are used to note pitches. Uppercase letters specify notes in the fourth octave, while lowercase letters specify notes an octave higher in the fifth octave. For example, the first notes of the C-major scale in the fourth octave can be notated with the following ABC notation:
+
+```
+C D E F
+```
+
+The letter `z` is used to indicate a rest.
+
+#### Octaves
+Comma (`,`) and apostrophe (`'`) signs lower and raise the octave of a pitch respectively. Octave symbols must come after the pitch!
+* Multiple symbols alter an octave multiple times. Two commas will lower a pitch by two octaves.
+* You can even use a combination of commas and apostrophes, but you probably don't want to. (`,'`) is  redundant.
+
+Here are some notes in different octaves:
+```
+C, A,, b' d''
+```
+
+#### Accidentals
+Accidentals are notated using one of three characters (`_ = ^`), and can be used to specify double sharp or double flats. Accidentals are written before the pitch!
+* `_` = Flat
+* `=` = Natural
+* `^` = Sharp
+
+Notes in ABC can have a range of character lengths. Four notes are written below:
+```
+C d, ^e _E,,
+```
+
+### Barlines
+Normal barlines in ABC are indicated with a vertical line also called a pipe (`|`). This can be typed by pressing <kbd>shift</kbd> + <kbd>backslash</kbd>.
+
+Since by default we are currently composing in 4/4 time and each note is a quarter note, we will write 4 notes between bar lines.
+
+ABC syntax supports a few different kinds of barlines.
+* `||` = Double Barline
+* `|]` = Ending Double Barline
+* `:|` = Right Repeat Signs
+* `|:` = Left Repeat Sign
+
+The following excerpt features two barlines:
+
+```
+c d e f | b f g a |]
+```
+
+## New Keyboard Commands
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd> = Play/Pause audio
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Period</kbd> = Stop all audio
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>9</kbd> = Jump between Braille Notation and Text Editor
+
+## Challenges to Try On Your Own
+Each week there will be three categories of challenges for you to work on your own.
+
+* **Notation Challenges** require you to incorporate new ABC syntax we covered that week.
+* **Composition Challenges** are prompts for composing new music. Think of these not as big artistic efforts, but as etudes, short studies for practicing ABC.
+* **Remix Challenges** are opportunities to edit existing work and make something new or surprising.
+
+### Notation Challenges
+1. Notate a one-octave scale starting at middle C.
+
+2. Notate a scale in any other key.
+
+3. Add bar lines to the following ABC melody so that the excerpt is musically correct:
+```
+c d e g f e d d c d e g c' b d d
+```
+
+### Composition Challenges
+1. Compose a [12-tone row](https://en.wikipedia.org/wiki/Twelve-tone_technique) or three-measure composition that uses all 12 chromatic pitches.
+
+2. Recreate a simple melody with only quarter notes, (e.g. Mary Had a Little Lamb).
+
+3. Compose your own melody using barlines and simple notes.
+
+### Remix Challenges
+1. Copy and paste the following familiar tune into SoundCells. Tinker around with the pitches and/or add an original continuation of the melody.
+```
+e d c d | e e e z | d d d z | e g g z |]
+```
+
+In future weeks, I will post excerpts of your music to remix your own or even each others' work.
