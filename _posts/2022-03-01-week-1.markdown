@@ -106,3 +106,6 @@ e d c d | e e e z | d d d z | e g g z |]
 ```
 
 In future weeks, I will post excerpts of your music to remix your own or even each others' work.
+
+---
+* [Next Class](/sc-workshop/class/update/2022/03/07/week-2.html)

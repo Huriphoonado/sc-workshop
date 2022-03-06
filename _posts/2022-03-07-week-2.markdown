@@ -1,0 +1,153 @@
+---
+layout: post
+title:  "Class 2: Rhythms and Headers"
+date: 2022-03-07
+categories: class update
+comments: false
+---
+
+Page Overview:
+* [Review: Pitches and Barlines](#review-pitches-and-barlines)
+* [New ABC Notation](#abc-notation-topics)
+  * [Durations](#durations)
+  * [Headers](#headers)
+* [New Keyboard Commands](#new-keyboard-commands)
+* [Challenges to Try On Your Own](#challenges-to-try-on-your-own)
+
+## Review: Pitches and Barlines
+We learned last week that pitches are written using the letters `a–g`, and rests are written with the letter `z`. Uppercase letters are in the fourth octave, while lowercase letters are in the fifth octave. Octaves can be further raised using apostrophes (`'`) or lowered using commas (`,`). Accidentals are written using carets for sharps (`^`), underscores for flats (`_`) and equal signs for natural (`=`).
+
+**Octave signs are written after the pitch while accidentals are written before.**
+
+Barlines are written using a vertical line (`|`) and SoundCells supports a few kinds like double barlines (`||`), ending double barlines (`|]`) and repeat signs (`:|`)
+
+What follows is a short ABC excerpt demonstrating different ways of writing notes and barlines.
+```
+C D A B | D, E, F, G, | _c ^d ^a' ^g'' |]
+```
+
+## New ABC Notation
+This week, we covered how to notate durations and add a few headers to describe key properties of a musical score. (This example can be found under the Example ABC Excerpts as "Zelda's Theme"):
+
+```
+K: G
+M: 3/4
+L: 1/4
+| B2 d | A2 G1/2 A1/2 | B2 d | A3 | B2 d | a2 g | d2 c1/2 B1/2 | A3 |]
+```
+
+### Durations
+Durations in ABC are expressed using numbers and fractions written at the end of a note. For example, writing `C2` doubles the note's duration while `C1/2` halves the note's duration.
+
+You may even write complex durations like `C1/3` to express triplets or how about `C5/7`?
+
+#### Duration Shorthand
+If a fraction begins with a one, you may omit the numerator. `/2` is equivalent to `1/2`. Additional slashes by themselves halve a duration.
+
+Here are three ways of expressing the same duration. (They all do the same thing, so you are welcome to write what is most comfortable to you!)
+* `A1/4`
+* `A/4`
+* `A//`
+
+Example excerpt using multiple durations:
+```
+A B c d | A1/2 B1/2 c1/2 d1/2 A/2 B/2 c/ d/ | A4/3 B4/3 c4/3 |]
+```
+
+## Headers
+Up to this point, we have been been writing notes before providing any other information about the score. This is because SoundCells incorporates some defaults - For example, the time signature we have used to date is 4/4, the key is in C major, and the default note duration is a quarter note.
+
+However, we Headers must be written on their own line. This week we learned how to indicate a key signature, time signature, and note duration. For example, the following snippet is in Bb, 2/4, with an eighth note base duration:
+
+```
+K: Bb
+M: 2/4
+L: 1/8
+D D C2 | B,2 z2 |]
+```
+
+### Key Signature
+Key Signatures use the letter `K` followed by a key. Weirdly enough, flats and sharps are written `b` and `#` respectively, and not carets and underscores like notes.
+
+You may indicate a minor key by writing a lowercase `m` at the end of the key for minor.
+
+Example Key Signatures:
+```
+K: Ab
+K: Bm
+K: C#m
+```
+
+### Time Signature
+Time signatures use the letter `M`, and are written as fractions.
+
+Example Time Signatures:
+```
+M: 4/4
+M: 6/8
+M: 5/4
+```
+
+### Base Note Duration
+The base note duration is a unique property of ABC that specifies the duration of notes.
+
+For example, copy and paste the following excerpt into SoundCells and notice how even though none of the notes have a duration, the second measure contains eighth notes.
+
+```
+L: 1/4
+A B c d |
+L: 1/8
+A B c d A B c d ||
+```
+
+Durations written on notes are multiplied agains the base duration. If a base duration is an eighth note, (`L: 1/8`), and a note has a number 2 after it, (`C2`) it will be a quarter note. The following two measures are equivalent:
+
+```
+L: 1/4
+A B c d |
+L: 1/8
+A2 B2 c2 d2 ||
+```
+
+## New Keyboard Commands
+We learned about question mark or "tell-me" commands that describe the current note or measure based on the position of the cursor.
+* <kbd>?</kbd> then <kbd>n</kbd> = current note
+* <kbd>?</kbd> then <kbd>m</kbd> = current measure
+
+Note that "tell-me" commands currently do not work if you are a VoiceOver user and have changed the Code Editor setting to Text Editor.
+
+## Challenges to Try On Your Own
+Each week there will be three categories of challenges for you to work on your own.
+
+* **Notation Challenges** require you to incorporate new ABC syntax we covered that week.
+* **Composition Challenges** are prompts for composing new music. Think of these not as big artistic efforts, but as etudes, short studies for practicing ABC.
+* **Remix Challenges** are opportunities to edit existing work and make something new or surprising.
+
+### Notation Challenges
+1. Notate a one-octave scale starting at middle C. Then change the key to C minor using a header without altering any of the notes.
+
+2. Copy and paste the following excerpt into SoundCells. Add a duration to one or more notes in each measure to make it complete. (There are an infinite number of right answers!)
+```
+M: 4/4
+L: 1/4
+A A A |
+A A A A A A |
+A A A A A |]
+```
+
+3. Copy and paste the following excerpt into SoundCells. The change the time signature from 4/4 to 3/4 and reposition the barlines so that all the measures are complete.
+```
+M: 4/4
+D3 E | F G A F | C/ D/ E/ F/ G2 ||
+```
+
+### Composition Challenges
+1. Compose a new melody using notes, durations, barlines, and at least one header.
+
+2. Compose a [12-tone row](https://en.wikipedia.org/wiki/Twelve-tone_technique) or three-measure composition that uses all 12 chromatic pitches (or use last week's row). (Or use a row composed last week.) Then, add durations such that no two consecutive notes have the same duration.
+
+### Remix Challenges
+1. Choose any melody that you or another student composed last week. First, experiment by changing the headers without changing any notes. Then add durations to give the excerpt some rhythm.
+
+---
+* [Previous Class](/sc-workshop/class/update/2022/02/28/week-1.html)
