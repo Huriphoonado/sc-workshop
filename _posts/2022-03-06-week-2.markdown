@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Class 2: Rhythms and Headers"
-date: 2022-03-07
+date: 2022-03-06
 categories: class update
 comments: false
 ---
