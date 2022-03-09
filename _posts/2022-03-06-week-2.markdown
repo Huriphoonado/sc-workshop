@@ -42,7 +42,7 @@ Durations in ABC are expressed using numbers and fractions written at the end of
 You may even write complex durations like `C1/3` to express triplets or how about `C5/7`?
 
 #### Duration Shorthand
-If a fraction begins with a one, you may omit the numerator. `/2` is equivalent to `1/2`. Additional slashes by themselves halve a duration.
+If a fraction begins with a `1`, you may omit the numerator. `/2` is equivalent to `1/2`. Additional slashes by themselves halve a duration.
 
 Here are three ways of expressing the same duration. (They all do the same thing, so you are welcome to write what is most comfortable to you!)
 * `A1/4`
@@ -55,9 +55,9 @@ A B c d | A1/2 B1/2 c1/2 d1/2 A/2 B/2 c/ d/ | A4/3 B4/3 c4/3 |]
 ```
 
 ## Headers
-Up to this point, we have been been writing notes before providing any other information about the score. This is because SoundCells incorporates some defaults - For example, the time signature we have used to date is 4/4, the key is in C major, and the default note duration is a quarter note.
+Up to this point, we have been been writing notes before providing any other information about the score. This is because SoundCells incorporates some defaults - For example, the time signature we have used to date is 4/4, the key is in C major, and the default note duration is a quarter note. However, music can be in many different meters and
 
-However, we Headers must be written on their own line. This week we learned how to indicate a key signature, time signature, and note duration. For example, the following snippet is in Bb, 2/4, with an eighth note base duration:
+Headers describe properties of music written below them. Headers must be written on their own line. This week we learned how to indicate a key signature, time signature, and note duration. For example, the following snippet is in Bb, 2/4, with an eighth note base duration:
 
 ```
 K: Bb
@@ -68,6 +68,19 @@ D D C2 | B,2 z2 |]
 
 ### Key Signature
 Key Signatures use the letter `K` followed by a key. Weirdly enough, flats and sharps are written `b` and `#` respectively, and not carets and underscores like notes.
+
+Key signatures affect the sharps and flats of notes. For example, in the following excerpt, the note `B` will be a B-flat because in the key of F there is one flat:
+
+```
+K: F
+F G A B
+```
+
+For a B-natural, you would need to notate a natural sign:
+```
+K: F
+F G A =B
+```
 
 You may indicate a minor key by writing a lowercase `m` at the end of the key for minor.
 
@@ -147,7 +160,7 @@ D3 E | F G A F | C/ D/ E/ F/ G2 ||
 2. Compose a [12-tone row](https://en.wikipedia.org/wiki/Twelve-tone_technique) or three-measure composition that uses all 12 chromatic pitches (or use last week's row). (Or use a row composed last week.) Then, add durations such that no two consecutive notes have the same duration.
 
 ### Remix Challenges
-1. Choose any melody that you or another student composed last week. First, experiment by changing the headers without changing any notes. Then add durations to give the excerpt some rhythm.
+1. Choose [any melody that you or another student composed last week](/sc-workshop/compositions/). First, experiment by changing the headers without changing any notes. Then add durations to give the excerpt some rhythm.
 
 ---
 * [Previous Class](/sc-workshop/class/update/2022/02/28/week-1.html)
