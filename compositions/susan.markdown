@@ -5,3 +5,6 @@ permalink: /compositions/susan
 ---
 
 Nothing here yet!
+
+---
+[Back to Compositions](/sc-workshop/compositions/)
