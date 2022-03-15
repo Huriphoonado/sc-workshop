@@ -59,7 +59,7 @@ For example, this vi-ii7-V7-I pattern shows half note, whole note, and quarter n
 | [A2ce] [D2FAc] | [B,4FGd] | [CEG] z3 |]
 ```
 
-## Comments
+### Comments
 Write comments at the end of a line using the percent sign `%`. For example:
 
 ```
