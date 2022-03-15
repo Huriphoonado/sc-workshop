@@ -4,6 +4,7 @@ title: Svetlana's Compositions
 permalink: /compositions/svetlana
 ---
 Page Overview:
+* [Class 2](#class-2)
 * [Class 1](#class-1)
 
 ## Class 2
@@ -12,7 +13,7 @@ Composition Challenge
 K:am
 M:4/4
 L:1/16
-z e'd'e' | c'e'be'ae'ge'fzd'c'd'|bd'ad'gd'fd'ezc'bc'|ac'gc'fc'ec'dzbab|^gb^fbebdbcz |]
+ze'd'e'|c'e'be'ae'ge'f4zd'c'd'|bd'ad'gd'fd'e4zc'bc'|ac'gc'fc'ec'd4zbab|^gb^fbebdbc4|]
 ```
 
 ## Class 1

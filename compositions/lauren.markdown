@@ -4,6 +4,7 @@ title: Lauren's Compositions
 permalink: /compositions/lauren
 ---
 
+Page Overview:
 * [Class 2](#class-2)
 * [Class 1](#class-1)
 

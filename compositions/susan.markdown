@@ -3,12 +3,11 @@ layout: page
 title: Susan's Compositions
 permalink: /compositions/susan
 ---
-
+Page Overview:
 * [Class 2](#class-2)
 * [Class 1](#class-1)
 
 ## Class 2
-
 Composition Challenge 1
 ```
 K: G
