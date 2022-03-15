@@ -27,8 +27,8 @@ G, _D B, _B, | C _E A ^F | F D _A, E, |]
 ```
 
 Remix Challenge
-T: Evolution from 'Mary Had a Little Lamb'
 ```
+T: Evolution from 'Mary Had a Little Lamb'
 d c d e | c c c z | d d d z | g e e z | c d e f | e e e e | d c B A | G z g z | d c d e | c c c z | d d d z | g e e z | c d e f | e e e e | d d e d | c z z z |]
 ```
 

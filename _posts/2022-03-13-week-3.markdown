@@ -1,0 +1,182 @@
+---
+layout: post
+title:  "Class 3: Chords"
+date: 2022-03-13
+categories: class update
+comments: false
+---
+
+Page Overview:
+* [Review: Durations and Headers](#review-durations-and-headers)
+* [New ABC Notation](#abc-notation-topics)
+  * [Dotted Rhythms](#dotted-rhythms)
+  * [Chords](#chords)
+  * [Comments](#comments)
+  * [New Headers](#new-headers)
+* [New Keyboard Commands](#new-keyboard-commands)
+* [Settings and Save Menus](#settings-and-save-menus)
+* [Challenges to Try On Your Own](#challenges-to-try-on-your-own)
+
+## Review: Review: Durations and Headers
+We learned last week that durations can be written at the end of notes in the form of fractions or numbers. For example, `C2` is a doubled duration, `C3/2` is one-and-a-half duration or dotted note, `C1/3` is a one-third duration, or a triplet. ABC supports a couple shorthands for halving durations. For example, `C/4` and `C//` are both equivalent to `C1/4`.
+
+We also learned about headers, special commands that are written on their own line and describe properties of a musical score. The three headers we learned determine key signature (`K`), time signature or meter (`M`), and note length (`L`), a special ABC command for determining the default duration of notes.
+
+What follows is a short ABC excerpt demonstrating everything we've learned so far: notes, barlines, and headers. (This example can be found under the Example ABC Excerpts as "Zelda's Theme"):
+```
+K: G
+M: 3/4
+L: 1/4
+| B2 d | A2 G/ A/ | B2 d | A3 | B2 d | a2 g | d2 c/ B/ | A3 |]
+```
+
+## New ABC Notation
+This week, we learned one more rhythm syntax, how to notate chords and how to add a couple more headers for determining how our music looks and sounds.
+
+### Dotted Rhythms
+A common occurrence in traditional music or folk tunes is the dotted or broken rhythm. ABC makes this very easy using the `>` or greater-than sign. Adding `>` between two notes adds a dot to the first note and halfs the second note. As you might expect, you can write `>` multiple times.
+
+Copy the following music into SoundCells and compare how the three measures sound:
+
+```
+| A B c d | A>B c>d | A>>B c>>d |]
+```
+
+### Chords
+Chords are very easy to write in SoundCells. Simply encase a group of notes in square brackets, (`[]`). In the default SoundCells editor, you only need to type a left bracket and it will automatically add a right bracket.
+
+The following is a simple I-IV-V pattern using voice leading. (What does (`L: 1/1`) mean?)
+```
+L: 1/1
+| [CEG] | [CFA] | [B,DG] | [CEG] |]
+```
+
+All notes in a chord must have the same duration. Only write the duration after the first note in a chord. All other durations written will be ignored.
+
+For example, this vi-ii7-V7-I pattern shows half note, whole note, and quarter note chords.
+
+```
+| [A2ce] [D2FAc] | [B,4FGd] | [CEG] z3 |]
+```
+
+## Comments
+Write comments at the end of a line using the percent sign `%`. For example:
+
+```
+L: 1/8 % Eighth note length
+| A2 B c d e f g | a2 e2 A4 |] % A minor scale
+```
+
+In programming languages, comments are for people and not the computer. In SoundCells, comments do not appear in the score or affect playback. You can use comments to write notes to your self or to someone you are sharing your notation with. For example, you might use a comment to highlight an error you aren't sure about.\
+```
+T: 120 % Why isn't this changing the tempo?
+| A B C h | % Hey Willie, what's wrong here?
+```
+
+You might also use a comment to describe your process or where your project originated from.
+```
+% Originally Daniel's tune. Then I changed the key and rhythm
+```
+
+### New Headers
+SoundCells supports a few more headers. Today we added tempo (`Q`), title (`T`), and composer (`C`), to our bag of headers.
+
+#### Tempo
+The easiest way to indicate a tempo is to provide a single number.
+```
+Q: 140 % 140 bpm
+```
+
+By default, adding a number indicates quarter notes per minute, but you may also indicate other durations:
+```
+Q: 1/2=60 % half note is 60 bpm
+Q: 1/8=200 % eighth note is 200 bpm
+```
+
+You may also add descriptive words in quotation marks before or after the tempo marking.
+```
+Q: 148 "Allegro"
+Q: 60 "Very Slow"
+```
+
+#### Title and Composer
+Titles use the capital letter `T` while composer uses the capital letter `C`. This information will appear at the top of the score, and while there may be reasons to use other headers multiple times, e.g. to change the tempo or time signature, you probably only want to specify these once at the top.
+```
+T: My Masterpiece
+C: William Payne
+```
+
+When working on assignments going forward, consider always including a title and composer (you)!
+
+## New Keyboard Commands
+We learned how to loop a measure while editing.
+
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd> = Toggle Loop Mode
+* (Press again to deactivate Loop Mode)
+
+While a measure is looping you won't hear the notes the instant you type them, but you will hear them as the loop reaches them.
+
+## Settings and Save Menus
+Finally, we covered a couple more features of the SoundCells interface.
+
+### Save Menu
+The save menu lets you submit your work via a Google form and it also lets you download a zip folder containing different file types to your device.
+* ABC: This is different than copying your notation. It removes unsupported characters automatically adds missing headers.
+* Braille: ASCII braille (.brf) file.
+* MusicXML: MusicXML files can be opened in other music software like Lime Aloud or Sibelius allowing you to begin a project in SoundCells and continue working on it in something else.
+* Print: The PDF . You can change the size of the music and the paper in Settings.
+
+### Settings Menu
+The settings menu contains various controls. Screen reader users may want to play with "Note Delay Time" setting which can be used play back notes after the screenreader speaks. Those using magnification may want to tinker with the font size and score size settings.
+
+## Challenges to Try On Your Own
+Each week there will be three categories of challenges for you to work on your own.
+
+* **Notation Challenges** require you to incorporate new ABC syntax we covered that week.
+* **Composition Challenges** are prompts for composing new music. Think of these not as big artistic efforts, but as etudes, short studies for practicing ABC.
+* **Remix Challenges** are opportunities to edit existing work and make something new or surprising.
+
+### Notation Challenges
+1. Turn each note of the C Major scale into the root of a chord. For example, the first chord is written for you:
+```
+| [CEG] D E F | G A B C ||
+```
+
+2. There is one error in every header. Both measures (excluding the pickup) are incomplete, but each can be fixed with one change. Copy into SoundCells, fix each line and then add your name as the composer before you submit.
+```
+T: 1/4=120 "Allegro"
+Q: Broken Tune
+M: 4
+K: _B
+E/ | [FAc4] | G2>C |]
+```
+
+### Composition Challenge
+1. Try notating these standard chord progressions in any key. Bonus points for going beyond triads and for using voice leading.
+* Major ii-V-I
+* Minor ii-V-i
+* Major I-vi-ii-V
+  * Bonus: Replace I with iii
+  * Bonus: Replace vi with #i diminished
+* Minor i-VI-ii-V
+* I-IV-iii-VI
+
+2. Compose any harmonic progression. Optionally, use durations as well.
+
+### Remix Challenges
+1. Hildegard Von Bingen's music for voice was notated without durations, at least the not the same way that we think of them. Copy the following line into SoundCells, and make it more expressive by adding rhythm. You are welcome to change the time signature and add barlines, but make sure each measure is complete! (Hint use the question mark command for measure to check.)
+
+```
+T: O Virtus Sapientiae
+C: Hildegard Von Bingen
+Q: 80
+M: 20/4
+| E B A B e d c B A G G G A B c B A G F E |]
+```
+
+Bonus challenge: - Use chords with two pitches to harmonize each note (first-species counterpoint).
+
+2. Choose [any melody that you or another student composed](/sc-workshop/compositions/). Add new layers of harmony and feel free to explore any of the syntax we've covered thus far.
+
+---
+* [Previous Class](/sc-workshop/class/update/2022/03/06/week-2.html)

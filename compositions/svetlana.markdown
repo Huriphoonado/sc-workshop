@@ -6,6 +6,15 @@ permalink: /compositions/svetlana
 Page Overview:
 * [Class 1](#class-1)
 
+## Class 2
+Composition Challenge
+```
+K:am
+M:4/4
+L:1/16
+z e'd'e' | c'e'be'ae'ge'fzd'c'd'|bd'ad'gd'fd'ezc'bc'|ac'gc'fc'ec'dzbab|^gb^fbebdbcz |]
+```
+
 ## Class 1
 Notation Challenge 1
 ```

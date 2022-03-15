@@ -54,7 +54,7 @@ Example excerpt using multiple durations:
 A B c d | A1/2 B1/2 c1/2 d1/2 A/2 B/2 c/ d/ | A4/3 B4/3 c4/3 |]
 ```
 
-## Headers
+### Headers
 Up to this point, we have been been writing notes before providing any other information about the score. This is because SoundCells incorporates some defaults - For example, the time signature we have used to date is 4/4, the key is in C major, and the default note duration is a quarter note. However, music can be in many different meters and
 
 Headers describe properties of music written below them. Headers must be written on their own line. This week we learned how to indicate a key signature, time signature, and note duration. For example, the following snippet is in Bb, 2/4, with an eighth note base duration:
@@ -66,7 +66,7 @@ L: 1/8
 D D C2 | B,2 z2 |]
 ```
 
-### Key Signature
+#### Key Signature
 Key Signatures use the letter `K` followed by a key. Weirdly enough, flats and sharps are written `b` and `#` respectively, and not carets and underscores like notes.
 
 Key signatures affect the sharps and flats of notes. For example, in the following excerpt, the note `B` will be a B-flat because in the key of F there is one flat:
@@ -91,7 +91,7 @@ K: Bm
 K: C#m
 ```
 
-### Time Signature
+#### Time Signature
 Time signatures use the letter `M`, and are written as fractions.
 
 Example Time Signatures:
@@ -101,7 +101,7 @@ M: 6/8
 M: 5/4
 ```
 
-### Base Note Duration
+#### Base Note Duration
 The base note duration is a unique property of ABC that specifies the duration of notes.
 
 For example, copy and paste the following excerpt into SoundCells and notice how even though none of the notes have a duration, the second measure contains eighth notes.
@@ -164,3 +164,4 @@ D3 E | F G A F | C/ D/ E/ F/ G2 ||
 
 ---
 * [Previous Class](/sc-workshop/class/update/2022/02/28/week-1.html)
+* [Next Class](/sc-workshop/class/update/2022/03/13/week-3.html)
