@@ -37,7 +37,6 @@ This week, we learned one more rhythm syntax, how to notate chords and how to ad
 A common occurrence in traditional music or folk tunes is the dotted or broken rhythm. ABC makes this very easy using the `>` or greater-than sign. Adding `>` between two notes adds a dot to the first note and halfs the second note. As you might expect, you can write `>` multiple times.
 
 Copy the following music into SoundCells and compare how the three measures sound:
-
 ```
 | A B c d | A>B c>d | A>>B c>>d |]
 ```
@@ -54,14 +53,12 @@ L: 1/1
 All notes in a chord must have the same duration. Only write the duration after the first note in a chord. All other durations written will be ignored.
 
 For example, this vi-ii7-V7-I pattern shows half note, whole note, and quarter note chords.
-
 ```
 | [A2ce] [D2FAc] | [B,4FGd] | [CEG] z3 |]
 ```
 
 ### Comments
 Write comments at the end of a line using the percent sign `%`. For example:
-
 ```
 L: 1/8 % Eighth note length
 | A2 B c d e f g | a2 e2 A4 |] % A minor scale
@@ -109,7 +106,7 @@ C: William Payne
 When working on assignments going forward, consider always including a title and composer (you)!
 
 ## New Keyboard Commands
-We learned how to loop a measure while editing.
+We learned how to loop a measure while editing. This causes the current measure your cursor is in to loop indefinitely when you press Play.
 
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd> = Toggle Loop Mode
 * (Press again to deactivate Loop Mode)
@@ -124,17 +121,12 @@ The save menu lets you submit your work via a Google form and it also lets you d
 * ABC: This is different than copying your notation. It removes unsupported characters automatically adds missing headers.
 * Braille: ASCII braille (.brf) file.
 * MusicXML: MusicXML files can be opened in other music software like Lime Aloud or Sibelius allowing you to begin a project in SoundCells and continue working on it in something else.
-* Print: The PDF . You can change the size of the music and the paper in Settings.
+* Print: The PDF can be printed out and read by sighted and low vision musicians. You can change the size of the music and the paper in Settings.
 
 ### Settings Menu
 The settings menu contains various controls. Screen reader users may want to play with "Note Delay Time" setting which can be used play back notes after the screenreader speaks. Those using magnification may want to tinker with the font size and score size settings.
 
 ## Challenges to Try On Your Own
-Each week there will be three categories of challenges for you to work on your own.
-
-* **Notation Challenges** require you to incorporate new ABC syntax we covered that week.
-* **Composition Challenges** are prompts for composing new music. Think of these not as big artistic efforts, but as etudes, short studies for practicing ABC.
-* **Remix Challenges** are opportunities to edit existing work and make something new or surprising.
 
 ### Notation Challenges
 1. Turn each note of the C Major scale into the root of a chord. For example, the first chord is written for you:
@@ -165,7 +157,6 @@ E/ | [FAc4] | G2>C |]
 
 ### Remix Challenges
 1. Hildegard Von Bingen's music for voice was notated without durations, at least the not the same way that we think of them. Copy the following line into SoundCells, and make it more expressive by adding rhythm. You are welcome to change the time signature and add barlines, but make sure each measure is complete! (Hint use the question mark command for measure to check.)
-
 ```
 T: O Virtus Sapientiae
 C: Hildegard Von Bingen
