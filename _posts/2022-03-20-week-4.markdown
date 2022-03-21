@@ -1,0 +1,137 @@
+---
+layout: post
+title:  "Class 4: Articulations"
+date: 2022-03-20
+categories: class update
+comments: false
+---
+
+Page Overview:
+* [Review: Chords and Comments](#review-chords-and-comments)
+* [New ABC Notation](#new-abc-notation)
+  * [Articulations](#articulations)
+  * [Changes Across Groups of Notes](#changes-across-groups-of-notes)
+  * [Grace Notes](#grace-notes)
+* [New Keyboard Commands](#new-keyboard-commands)
+* [Challenges to Try On Your Own](#challenges-to-try-on-your-own)
+
+## Review: Chords and Comments
+We learned last week that *chords* written in soundCells are simply groups of notes encapsulated by square brackets.
+
+**Reminder:** Only the first note in a chord specifies a duration. All other durations written will be ignored. The following is a simple chord progression:
+```
+K: Bb
+| [D2FA] [DGB] [EFAc] | [D4FB] |]
+```
+
+Additionally, we learned how to write *comments*, or notes that appear to you or someone else reading your ABC notation, but that do not appear in the score:
+```
+| [A4,, C G B e] | % Nice chord
+  a c A C |[ % Something wrong here
+```
+
+## New ABC Notation
+This week, we learned about other musical symbols, including articulations, ties, slurs, and crescendi/decrescendi currently supported in SoundCells.
+
+For example, below is an excerpt that puts everything together:
+```
+| (Ka .c Mk_D2) | a b c2 - | !>(! c e b2 !>)! |]
+```
+
+**Important:** These are new features of SoundCells still in development! They will appear in the notation, but they will not change the sound of playback (yet).
+
+### Articulations
+Articulations are symbols that determine how a note should be played. In print music, these appear above or below the note, while in SoundCells, they are written before the note. SoundCells supports a few articulations right now, but of course there are many more.
+
+
+| Articulation  | Syntax | Meaning     |
+| ------------- | ------ | ----------- |
+| Staccatto      | `.`    | Short       |
+| Accent        | `K`    | Loud        |
+| Strong Accent | `k`    | Louder      |
+| Tenuto        | `M`    | Full length |
+| Upbow         | `u`    | Stroke up   |
+| Downbow       | `v`    | Stroke down |
+
+In the following excerpt, the first measure indicates to a performer to play the notes *staccato* (short) while the second measure indicates the notes to be played *tenuto* (at full length).
+```
+K: Dm
+L: 1/8
+T: Short Short Long
+C: Willie
+| .D .E .G .A .B2 .A .G | MF2 MG2 MD4 |]
+```
+
+Multiple articulations can be applied to the same note. Simply write multiple characters before the note, e.g. `KvC` (accent and down bow).
+
+### Changes Across Groups of Notes
+Additional symbols can affect how multiple notes are intended to be played.
+
+#### Ties
+Ties connect two notes indicating that they should be played as one. In SoundCells, ties are written as dashes between notes and are usually used in between measures, but can be used within a measure as well. The following example illustrates both use cases:
+```
+| C3 C - | C C - C2 |]
+```
+
+Note that ties must be between the same pitch - otherwise they won't appear!
+
+#### Slurs
+Slurs connect two or more notes indicating that they should be played as smoothly as possible. For example, the following except uses two slurs, each continuing across measures.
+```
+L: 1/8
+(A B | c4) z2 (B c | d2) z2 e4 |]
+```
+
+You can combine multiple slurs, or even have a tie within a group of slurred notes.
+```
+K: Fm
+L: 1/8
+M: 2/4
+| (F G A B - | B c d e | f4) |]
+```
+
+#### Crescendi and Decrescendi
+A crescendo indicates a gradual increase in volume, while a decrescendo of course indicates a decrease. In print scores, these are notated using "hairpins" or pairs of lines that expand or contract. The less-than `<` or greater-than `>` signs used in SoundCells resemble the appearence of hairpins. Notating these in SoundCells is similar to notating slurs, where you indicate the start and end of the volume change, but the syntax is quite weird also using exclamation points.
+```
+| !<(! C D E f !<)! % crescendo
+| !>(! G A B c !>)! |] % decrescendo
+```
+
+### Grace Notes
+The FINAL syntax we will learn are grace notes, short notes that ornament a note that follow them. Grace notes in SoundCells are written using curly braces (`{}`). There can be one or more grace notes. For example:
+```
+M: 2/4
+| {b/}c' {g/a/b/}c' |]
+```
+
+## New Keyboard Commands
+We learned an important command for displaying and navigating through any issues with your ABC notation. Pressing this command will pop up a new list below the text editor that you may navigate through using your arrow keys.
+
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> = Show Warnings/Errors
+* You can close this window by pressing escape (<kbd>esc</kbd>).
+
+SoundCells describes incorrect notation in two ways:
+* Error: There is text that is not supported. Like at all. This text is ignored, and there is a button that will automatically delete it for you
+* Warning: All the text looks right, but there are musical rules broken. SoundCells currently includes warnings for measures that are too short, too long, or missing a barline.
+
+You may come across issues that SoundCells doesn't give you feedback about. Let Willie know when this happens!
+
+## Challenges to Try On Your Own
+
+### Notation Challenge
+1. Copy and paste the following example into SoundCells. Then press the command to show warnings/errors (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd>). First, determine how many warnings and how many errors are there? Then, go ahead and delete the errors. Finally, fix the measures that have warnings.
+```
+L: 1/8
+| A B C D F4 s | A6 |
+L: 1/4
+B5 &&& |]
+```
+
+### Composition Challenge
+1. Begin sketching ideas for your final project.
+
+### Remix Challenges
+1. Choose [any melody that you or another student composed](/sc-workshop/compositions/). Add articulations or any of the concepts we have covered to date.
+
+---
+* [Previous Class](/sc-workshop/class/update/2022/03/13/week-3.html)

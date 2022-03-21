@@ -8,7 +8,7 @@ comments: false
 
 Page Overview:
 * [Review: Durations and Headers](#review-durations-and-headers)
-* [New ABC Notation](#abc-notation-topics)
+* [New ABC Notation](#new-abc-notation)
   * [Dotted Rhythms](#dotted-rhythms)
   * [Chords](#chords)
   * [Comments](#comments)
@@ -121,7 +121,7 @@ The save menu lets you submit your work via a Google form and it also lets you d
 * ABC: This is different than copying your notation. It removes unsupported characters automatically adds missing headers.
 * Braille: ASCII braille (.brf) file.
 * MusicXML: MusicXML files can be opened in other music software like Lime Aloud or Sibelius allowing you to begin a project in SoundCells and continue working on it in something else.
-* Print: The PDF can be printed out and read by sighted and low vision musicians. You can change the size of the music and the paper in Settings.
+* Print: The PDF can be printed out and read by sighted and low-vision musicians. You can change the size of the music and the paper in Settings.
 
 ### Settings Menu
 The settings menu contains various controls. Screen reader users may want to play with "Note Delay Time" setting which can be used play back notes after the screenreader speaks. Those using magnification may want to tinker with the font size and score size settings.
@@ -171,3 +171,4 @@ Bonus challenge: - Use chords with two pitches to harmonize each note (first-spe
 
 ---
 * [Previous Class](/sc-workshop/class/update/2022/03/06/week-2.html)
+* [Next Class](/sc-workshop/class/update/2022/03/20/week-4.html)
