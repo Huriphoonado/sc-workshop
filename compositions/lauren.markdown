@@ -5,10 +5,27 @@ permalink: /compositions/lauren
 ---
 
 Page Overview:
+* [Class 3](#class-3)
 * [Class 2](#class-2)
 * [Class 1](#class-1)
 
+## Class 3
+Notation Challenge 1
+```
+| [CEG] [DFA] [EGB] [FAC] | [GBd] [Ace] [Bdf] [ceg] ||
+```
+
 ## Class 2
+Composition Challenge
+```
+K:Ab
+4/4
+ABc2
+|_d/_e/=f=g_a
+K:a
+
+ABc2|d/e/fga
+```
 
 Composition Challenge
 ```

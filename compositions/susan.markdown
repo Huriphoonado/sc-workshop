@@ -4,8 +4,43 @@ title: Susan's Compositions
 permalink: /compositions/susan
 ---
 Page Overview:
+* [Class 3](#class-3)
 * [Class 2](#class-2)
 * [Class 1](#class-1)
+
+## Class 3
+
+Notation Challenge 1
+```
+| [C4EG]|
+[D4^FA] |
+[E4^GB]|
+[F4Ac]|
+[G4Bd]|
+[A4^ce]|
+[B4^d^f]|
+[c4eg] ||
+```
+
+Notation Challenge 2
+```
+C: Susan
+Q: 1/4=120 "Allegro"
+T: Broken Tune
+M: 4/4
+K:Bb
+E/ | [F4Ac] | G2>C2 ||
+```
+
+Composition Challenge 3
+```
+[DFA] [DGB] [CEG]  z | % Major ii-V-I
+[G_Bd] [ceG] [F_Ac] z | % Minor ii-V-i
+[CEG] [CEA] [DFA]  [DGB] | % Major I-vi-ii-V
+[Ace] [Acf]  [G_Bd] [GBe] | % Minor i-VI-ii-V
+|[CEG] [CFA] [EGB] [AcE] | % I-IV-iii-VI
+% I may have lots of wrong notes in this!
+```
 
 ## Class 2
 Composition Challenge 1

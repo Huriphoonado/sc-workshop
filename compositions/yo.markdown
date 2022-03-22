@@ -4,8 +4,59 @@ title: Yo's Compositions
 permalink: /compositions/yo
 ---
 Page Overview:
+* [Class 3](#class-3)
 * [Class 2](#class-2)
 * [Class 1](#class-1)
+
+## Class 3
+
+Notation Challenge 1
+```
+| [CEG][DFA][EGB][FAc]|[GBd][Ace][Bdf][ceg]|]
+```
+
+Notation Challenge 2
+```
+Q:1/4=120 "Allegro"
+
+T: Broken Tune
+L: 4
+K:Bb
+E/|[F4Ac]|G2>C|]
+C: Yo Kano
+```
+
+Composition Challenge 1
+```
+K: F
+|[GBdf][GBce][F2Ace]|]
+
+K:Cm
+|DFAc][DFG=B][C2EG=B]|]
+
+K:Eb
+|[EGBd][CEGB][FAce][B,DFA]|]
+
+K:Eb
+|[GBdf][GBce][FAce][FABd]|]
+
+K:Eb
+|[GBdf][_G__Bce][FAce][FABd]|]
+
+K:Gm
+|[GBd][Gce][Ace][^Fcd]|]
+
+K:F
+|[FAc][FBd][EAc][DFA]|]
+```
+
+Composition Challenge 2
+```
+K:C
+M:4/4
+|[C2EG][C>E^G][C1/2FA]|[C2EG_B][CFA][CF_A]|[C2EG][^CF^G|[C4EG]|]
+```
+
 
 ## Class 2
 
