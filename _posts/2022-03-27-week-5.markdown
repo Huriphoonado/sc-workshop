@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Class 5: Final Composition"
+date: 2022-03-27
+categories: class update
+comments: false
+---
+
+Page Overview:
+* [Minimum Requirements](#minimum-requirments)
+* [Additional Considerations](#additional-considerations)
+
+The class is reserved for everyone to work on original compositions.
+
+Please send your final ABC notation to Willie by **Sunday night (4/3)** and let him know whether you will be performing or whether you would like Richard to perform.
+
+You are welcome (and encouraged) to email Willie any in-progress scores if you need help debugging errors or warnings, or using specific notation.
+
+## Minimum Requirements
+* Score Length: 12–24 measures long.
+* Range: Bass clef or treble clef. Try not to use an overly large range so that Richard can perform on a single instrument.
+* Incorporate all the headers we learned in classes [1](/sc-workshop/class/update/2022/02/28/week-1.html) and [2](/sc-workshop/class/update/2022/03/06/week-2.html) at the top of your score.
+* The ABC should not have any errors or warnings in it once complete. Use <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> to show the the diagnostics with warnings and errors.
+
+## Additional Considerations
+* Consider including a comment at the top of your score with a description of the piece.
+* Try to include articulations and other symbols that we learned in [Class 4](/sc-workshop/class/update/2022/03/20/week-4.html).
+
+---
+* [Previous Class](/sc-workshop/class/update/2022/03/20/week-4.html)

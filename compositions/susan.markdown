@@ -4,9 +4,20 @@ title: Susan's Compositions
 permalink: /compositions/susan
 ---
 Page Overview:
+* [Class 4](#class-4)
 * [Class 3](#class-3)
 * [Class 2](#class-2)
 * [Class 1](#class-1)
+
+## Class 4
+
+Notation Challenge 1
+```
+L: 1/8
+| A B C D F4 | A8 |
+L: 1/4
+B4 |
+```
 
 ## Class 3
 

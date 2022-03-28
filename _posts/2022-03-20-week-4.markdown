@@ -135,3 +135,4 @@ B5 &&& |]
 
 ---
 * [Previous Class](/sc-workshop/class/update/2022/03/13/week-3.html)
+* [Next Class](/sc-workshop/class/update/2022/03/27/week-5.html)
