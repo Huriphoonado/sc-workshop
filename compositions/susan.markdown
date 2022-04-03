@@ -4,10 +4,23 @@ title: Susan's Compositions
 permalink: /compositions/susan
 ---
 Page Overview:
+* [Final Composition](#final-composition)
 * [Class 4](#class-4)
 * [Class 3](#class-3)
 * [Class 2](#class-2)
 * [Class 1](#class-1)
+
+## Final Composition
+```
+K: C
+C: Susan
+T: Simple Song
+L: 1/4
+M: 4/4
+| C F C> F | A c c z | f2 f2 | g/2 f/2 e/2 d/2 c2 | d2 c G |
+ G A c2 - | c A F G | F4 :|
+ % These 8 bars should repeat.
+```
 
 ## Class 4
 

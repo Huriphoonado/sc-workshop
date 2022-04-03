@@ -4,9 +4,21 @@ title: Yo's Compositions
 permalink: /compositions/yo
 ---
 Page Overview:
+* [Final Composition](#final-composition)
 * [Class 3](#class-3)
 * [Class 2](#class-2)
 * [Class 1](#class-1)
+
+## Final Composition
+```
+T:Easy Life
+C:Yo Kano
+K:F
+Q:80
+M:4/4
+|_A1/2=A1/2g1/2fA1/2-A|_G1/2=G1/2_d1/2=d1/2-d2| _G1/2=G1/2d1/2cE1/2-E|G1/2F1/2B1/2A1/2-A2|_D=D1/2cB1/2-B|C1/2=B,1/2C1/2_B1/2A2|G>_GF1/2cB1/2|A>_AG2|c2B1/2DB1/2|Ac1/2A1/2-A2|G2F1/2DF1/2|EF1/2G1/2-GC|c2d-d1/2e1/4g1/4|fedc1/2B1/2|_A1/2=Ac1/2B1/2E1/2-E|G1/2FF1/4E1/4F2|]
+
+```
 
 ## Class 3
 

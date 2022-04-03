@@ -1,0 +1,102 @@
+---
+layout: post
+title:  "Class 6: Performance!"
+date: 2022-04-03
+categories: class update
+comments: false
+---
+
+Final Compositions:
+* [Daniel](#daniel)
+* [Lauren](#lauren)
+* [Susan](#susan)
+* [Svetlana](#svetlana)
+* [Vinnie](#vinnie)
+* [Yo](#yo)
+
+
+## Daniel
+```
+X: 1
+T: Deserted
+C: Daniel Gillen
+% Inspired by a melody from my composition Biomes, Mvt. IV "Sahara"
+M: 5/2
+L: 1/4
+Q: "Grave" 1/4=90
+K: Dm % Actually a modal scale
+| D _E F2 _G >> F =E2 D2 | D F _E F _G A/ _G/ F2 - F/ _E/ D | D/ _E/ F F _G A/ _B/ A/ _G/ F E D C | _B,2 D C/ _B,// C// D _E F _G F =E | D2 z8 |]
+```
+
+![Deserted Score]({{site.baseurl}}/assets/images/deserted.png)
+
+## Lauren
+```
+T:An Original Song
+C:Lauren Burger
+
+K:Am
+L:1/4
+M:4/4
+Q:120
+ABcd|eAc/B/A/E/|Ace/e/A|c/c/A[Bdf][ceg]|Ac/e/z/A/A|A.cA[E/Ac]A/|Ace/e/A|A/A/.cA[EAc]|A^ce/e/A|A/e/M^cA>A|A=c/eA/c|E{Ae}KcA[c/Ea]A/|Ad^fA|^fdA>A|A/c/A/c/d/e/d/c/|ecA>A|Ace/A/A|ecA[Ace]||
+```
+
+![An Original Song Score]({{site.baseurl}}/assets/images/original.png)
+
+## Susan
+```
+K: C
+C: Susan
+T: Simple Song
+L: 1/4
+M: 4/4
+| C F C> F | A c c z | f2 f2 | g/2 f/2 e/2 d/2 c2 | d2 c G |
+ G A c2 - | c A F G | F4 :|
+ % These 8 bars should repeat.
+```
+
+![Simple Song Score]({{site.baseurl}}/assets/images/simple.png)
+
+
+## Svetlana
+```
+T:Prelude Pour Piano
+C:Saint Preux Arranged by Svetlana Avezbakiyeva
+K:am
+M:4/4
+Q:100
+L:1/16
+z(e'd'e'|c'e'be'ae'ge'f4)z(d'c'd'|bd'ad'gd'fd'e4)z(c'bc'|ac'gc'fc'ec'd4)z(bab|^gb^fbebdbc8)|[e2c][e2c][e2c][db,][ec][f2d]>[f2d][fd][ec][db,][ca,]|[d2b,][d2b,][d2b,][ca,][db,][e2c]>[e2c][ec][db,][ca,][b,g,]|[c2a,][c2a,][c2a,][b,g,][ca,][d2b,]>[d2b,][db,][ca,][b,g,][a,f,]|[^g,2b,,][^g,2b,,][^g,2b,,][^fa,][^g,b,,][a4ec]z(ede|ceb,ea,eg,ef,4)z(dcd|b,da,dg,df,de,4)z(cb,c|a,cg,cf,ce,cd,4)z(b,a,b,|^g,b,^f,b,e,b,d,b,c,8)|e'f'e'f'e'f'e'f'd'2d'e'f'e'd'c'|d'e'd'e'd'e'd'e'c'2c'd'e'd'c'b|c'd'c'd'c'bagd'e'd'e'f'e'd'c'|e'f'e'f'e'^f'^g'e'a'4|]
+```
+
+![Prelude Pour Piano Score]({{site.baseurl}}/assets/images/prelude.png)
+
+## Vinnie
+```
+X: 1
+T: Melody in C Major
+C: Vinnie Wang
+
+K:c
+M:4/4
+|cgec|ddg/2e/2c|agef|d/2a/2e/2c/2g/2e/2c|d/2a/2eag|c/2d/2e/2f/2g/2a/2b/2c'/2|c/2e/2g/2e/2e/2g/2f/2e/2|c1/4e1/4g1/4c'1/4b/4g1/4e/4f/4d/4e/4d/4c/4g/2e/2|gfdc|edcg|agfd|g/2f/2dcc|.d.e.g.c||
+```
+
+![Melody in C Major Score]({{site.baseurl}}/assets/images/melody.png)
+
+## Yo
+```
+T:Easy Life
+C:Yo Kano
+K:F
+Q:80
+M:4/4
+|_A1/2=A1/2g1/2fA1/2-A|_G1/2=G1/2_d1/2=d1/2-d2| _G1/2=G1/2d1/2cE1/2-E|G1/2F1/2B1/2A1/2-A2|_D=D1/2cB1/2-B|C1/2=B,1/2C1/2_B1/2A2|G>_GF1/2cB1/2|A>_AG2|c2B1/2DB1/2|Ac1/2A1/2-A2|G2F1/2DF1/2|EF1/2G1/2-GC|c2d-d1/2e1/4g1/4|fedc1/2B1/2|_A1/2=Ac1/2B1/2E1/2-E|G1/2FF1/4E1/4F2|]
+```
+
+![Easy Life Score]({{site.baseurl}}/assets/images/easy.png)
+
+
+---
+* [Previous Class](/sc-workshop/class/update/2022/03/27/week-5.html)

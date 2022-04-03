@@ -5,9 +5,22 @@ permalink: /compositions/lauren
 ---
 
 Page Overview:
+* [Final Composition](#final-composition)
 * [Class 3](#class-3)
 * [Class 2](#class-2)
 * [Class 1](#class-1)
+
+## Final Composition
+```
+T:An Original Song
+C:Lauren Burger
+
+K:Am
+L:1/4
+M:4/4
+Q:120
+ABcd|eAc/B/A/E/|Ace/e/A|c/c/A[Bdf][ceg]|Ac/e/z/A/A|A.cA[E/Ac]A/|Ace/e/A|A/A/.cA[EAc]|A^ce/e/A|A/e/M^cA>A|A=c/eA/c|E{Ae}KcA[c/Ea]A/|Ad^fA|^fdA>A|A/c/A/c/d/e/d/c/|ecA>A|Ace/A/A|ecA[Ace]||
+```
 
 ## Class 3
 Notation Challenge 1
