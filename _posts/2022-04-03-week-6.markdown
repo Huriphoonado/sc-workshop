@@ -14,8 +14,16 @@ Final Compositions:
 * [Vinnie](#vinnie)
 * [Yo](#yo)
 
-
 ## Daniel
+<audio controls>
+  <source src="{{site.baseurl}}/assets/audio/deserted.mp3" type="audio/mp3">
+  <p>
+  Your browser does not support HTML audio.
+  Here is a <a href="{{site.baseurl}}/assets/audio/deserted.mp3">link to download the audio</a> instead.
+  </p>
+</audio>
+
+### ABC
 ```
 X: 1
 T: Deserted
@@ -51,9 +59,24 @@ K: Dm
 ([=G,,//G,_B,] C// D) _E F _G A _G/ F5/2 =E/ D D2 |]  
 ```
 
-![Deserted Score]({{site.baseurl}}/assets/images/deserted.png)
+### Print
+![Deserted Print Score]({{site.baseurl}}/assets/images/deserted.png)
+
+### Braille
+![Deserted Braille Score]({{site.baseurl}}/assets/images/deserted_braille.png)
+
+---
 
 ## Lauren
+<audio controls>
+  <source src="{{site.baseurl}}/assets/audio/original.mp3" type="audio/mp3">
+  <p>
+  Your browser does not support HTML audio.
+  Here is a <a href="{{site.baseurl}}/assets/audio/original.mp3">link to download the audio</a> instead.
+  </p>
+</audio>
+
+### ABC
 ```
 T:An Original Song
 C:Lauren Burger
@@ -64,10 +87,23 @@ M:4/4
 Q:120
 ABcd|eAc/B/A/E/|Ace/e/A|c/c/A[Bdf][ceg]|Ac/e/z/A/A|A.cA[E/Ac]A/|Ace/e/A|A/A/.cA[EAc]|A^ce/e/A|A/e/M^cA>A|A=c/eA/c|E{Ae}KcA[c/Ea]A/|Ad^fA|^fdA>A|A/c/A/c/d/e/d/c/|ecA>A|Ace/A/A|ecA[Ace]||
 ```
+### Print
+![An Original Song Print Score]({{site.baseurl}}/assets/images/original.png)
 
-![An Original Song Score]({{site.baseurl}}/assets/images/original.png)
+![An Original Song Braille Score]({{site.baseurl}}/assets/images/original_braille.png)
+
+---
 
 ## Susan
+<audio controls>
+  <source src="{{site.baseurl}}/assets/audio/simple.mp3" type="audio/mp3">
+  <p>
+  Your browser does not support HTML audio.
+  Here is a <a href="{{site.baseurl}}/assets/audio/simple.mp3">link to download the audio</a> instead.
+  </p>
+</audio>
+
+### ABC
 ```
 K: C
 C: Susan
@@ -79,10 +115,19 @@ M: 4/4
  % These 8 bars should repeat.
 ```
 
-![Simple Song Score]({{site.baseurl}}/assets/images/simple.png)
+---
 
+### Print
+![Simple Song Print Score]({{site.baseurl}}/assets/images/simple.png)
+
+### Braille
+![Simple Song Braille Score]({{site.baseurl}}/assets/images/simple_braille.png)
+
+---
 
 ## Svetlana
+
+### ABC
 ```
 T:Prelude Pour Piano
 C:Saint Preux Arranged by Svetlana Avezbakiyeva
@@ -93,9 +138,24 @@ L:1/16
 z(e'd'e'|c'e'be'ae'ge'f4)z(d'c'd'|bd'ad'gd'fd'e4)z(c'bc'|ac'gc'fc'ec'd4)z(bab|^gb^fbebdbc8)|[e2c][e2c][e2c][db,][ec][f2d]>[f2d][fd][ec][db,][ca,]|[d2b,][d2b,][d2b,][ca,][db,][e2c]>[e2c][ec][db,][ca,][b,g,]|[c2a,][c2a,][c2a,][b,g,][ca,][d2b,]>[d2b,][db,][ca,][b,g,][a,f,]|[^g,2b,,][^g,2b,,][^g,2b,,][^fa,][^g,b,,][a4ec]z(ede|ceb,ea,eg,ef,4)z(dcd|b,da,dg,df,de,4)z(cb,c|a,cg,cf,ce,cd,4)z(b,a,b,|^g,b,^f,b,e,b,d,b,c,8)|e'f'e'f'e'f'e'f'd'2d'e'f'e'd'c'|d'e'd'e'd'e'd'e'c'2c'd'e'd'c'b|c'd'c'd'c'bagd'e'd'e'f'e'd'c'|e'f'e'f'e'^f'^g'e'a'4|]
 ```
 
-![Prelude Pour Piano Score]({{site.baseurl}}/assets/images/prelude.png)
+### Print
+![Prelude Pour Piano Print Score]({{site.baseurl}}/assets/images/prelude.png)
+
+### Braille
+![Prelude Pour Piano Braille Score]({{site.baseurl}}/assets/images/prelude_braille.png)
+
+---
 
 ## Vinnie
+<audio controls>
+  <source src="{{site.baseurl}}/assets/audio/melody.mp3" type="audio/mp3">
+  <p>
+  Your browser does not support HTML audio.
+  Here is a <a href="{{site.baseurl}}/assets/audio/melody.mp3">link to download the audio</a> instead.
+  </p>
+</audio>
+
+### ABC
 ```
 X: 1
 T: Melody in C Major
@@ -106,9 +166,24 @@ M:4/4
 |cgec|ddg/2e/2c|agef|d/2a/2e/2c/2g/2e/2c|d/2a/2eag|c/2d/2e/2f/2g/2a/2b/2c'/2|c/2e/2g/2e/2e/2g/2f/2e/2|c1/4e1/4g1/4c'1/4b/4g1/4e/4f/4d/4e/4d/4c/4g/2e/2|gfdc|edcg|agfd|g/2f/2dcc|.d.e.g.c||
 ```
 
-![Melody in C Major Score]({{site.baseurl}}/assets/images/melody.png)
+### Print
+![Melody in C Major Print Score]({{site.baseurl}}/assets/images/melody.png)
+
+### Braille
+![Melody in C Major Braille Score]({{site.baseurl}}/assets/images/melody_braille.png)
+
+---
 
 ## Yo
+<audio controls>
+  <source src="{{site.baseurl}}/assets/audio/easy.mp3" type="audio/mp3">
+  <p>
+  Your browser does not support HTML audio.
+  Here is a <a href="{{site.baseurl}}/assets/audio/easy.mp3">link to download the audio</a> instead.
+  </p>
+</audio>
+
+### ABC
 ```
 T:Easy Life
 C:Yo Kano
@@ -118,8 +193,11 @@ M:4/4
 |_A1/2=A1/2g1/2fA1/2-A|_G1/2=G1/2_d1/2=d1/2-d2| _G1/2=G1/2d1/2cE1/2-E|G1/2F1/2B1/2A1/2-A2|_D=D1/2cB1/2-B|C1/2=B,1/2C1/2_B1/2A2|G>_GF1/2cB1/2|A>_AG2|c2B1/2DB1/2|Ac1/2A1/2-A2|G2F1/2DF1/2|EF1/2G1/2-GC|c2d-d1/2e1/4g1/4|fedc1/2B1/2|_A1/2=Ac1/2B1/2E1/2-E|G1/2FF1/4E1/4F2|]
 ```
 
-![Easy Life Score]({{site.baseurl}}/assets/images/easy.png)
+### Print
+![Easy Life Print Score]({{site.baseurl}}/assets/images/easy.png)
 
+### Braille
+![Easy Life Braille Score]({{site.baseurl}}/assets/images/easy_braille.png)
 
 ---
 * [Previous Class](/sc-workshop/class/update/2022/03/27/week-5.html)
