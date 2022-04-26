@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Daniel's Compositions
-permalink: /compositions/daniel
+title: D's Compositions
+permalink: /compositions/d
 ---
 
 Page Overview:
@@ -12,7 +12,7 @@ Page Overview:
 ```
 X: 1
 T: Deserted
-C: Daniel Gillen
+C: D
 % Variations on a melody from my college thesis composition Biomes, Mvt. IV "Sahara"
 M: 5/2
 L: 1/4

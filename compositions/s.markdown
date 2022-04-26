@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Susan's Compositions
-permalink: /compositions/susan
+title: S' Compositions
+permalink: /compositions/s
 ---
 Page Overview:
 * [Final Composition](#final-composition)
@@ -13,7 +13,7 @@ Page Overview:
 ## Final Composition
 ```
 K: C
-C: Susan
+C: S
 T: Simple Song
 L: 1/4
 M: 4/4
@@ -48,7 +48,7 @@ Notation Challenge 1
 
 Notation Challenge 2
 ```
-C: Susan
+C: S
 Q: 1/4=120 "Allegro"
 T: Broken Tune
 M: 4/4

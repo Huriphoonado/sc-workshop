@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Vinnie's Compositions
-permalink: /compositions/vinnie
+title: V's Compositions
+permalink: /compositions/v
 ---
 ## Final Composition
 ```
 X: 1
 T: Melody in C Major
-C: Vinnie Wang
+C: V
 
 K:c
 M:4/4

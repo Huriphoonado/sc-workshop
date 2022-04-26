@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Yo's Compositions
-permalink: /compositions/yo
+title: Y's Compositions
+permalink: /compositions/y
 ---
 Page Overview:
 * [Final Composition](#final-composition)
@@ -12,7 +12,7 @@ Page Overview:
 ## Final Composition
 ```
 T:Easy Life
-C:Yo Kano
+C:Y
 K:F
 Q:80
 M:4/4
@@ -35,7 +35,7 @@ T: Broken Tune
 L: 4
 K:Bb
 E/|[F4Ac]|G2>C|]
-C: Yo Kano
+C: Y
 ```
 
 Composition Challenge 1

@@ -5,6 +5,6 @@
 layout: home
 title: SoundCells Workshop
 ---
-Welcome to the home page for the Spring 2022 remote course on notating music in [SoundCells](http://soundcells.herokuapp.com)! We'll update this website each week as we learn new ABC notation and make music together.
+Welcome to the home page for the Spring 2022 remote course on notating music in [SoundCells](http://soundcells.herokuapp.com)! This page was used and updated during the six weeks the course was taught, and has since been anonymized.
 
 ## Classes

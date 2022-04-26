@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Svetlana's Compositions
-permalink: /compositions/svetlana
+title: E's Compositions
+permalink: /compositions/e
 ---
 Page Overview:
 * [Final Composition](#final-composition)
@@ -13,7 +13,7 @@ Page Overview:
 ## Final Composition
 ```
 T:Prelude Pour Piano
-C:Saint Preux Arranged by Svetlana Avezbakiyeva
+C:Saint Preux Arranged by E
 K:am
 M:4/4
 Q:100

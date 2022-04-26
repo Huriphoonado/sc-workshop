@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Lauren's Compositions
-permalink: /compositions/lauren
+title: L's Compositions
+permalink: /compositions/l
 ---
 
 Page Overview:
@@ -13,7 +13,7 @@ Page Overview:
 ## Final Composition
 ```
 T:An Original Song
-C:Lauren Burger
+C:L
 
 K:Am
 L:1/4
